@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "swapnil085/calculator"
+        registry = "apurva786/calculator"
         registryCredential = 'dockerhub'
         dockerImage = ''
     }

@@ -1,5 +1,5 @@
-FROM python:3.5
-MAINTAINER swapnil
+FROM python:3.6
+MAINTAINER apurva
 WORKDIR /calculator
 ADD . /calculator
 EXPOSE 4000
