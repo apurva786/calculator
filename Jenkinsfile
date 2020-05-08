@@ -27,11 +27,7 @@ pipeline {
                     }
                 }
             }
-        }
-        stage('Deploy') {
-            steps {
-                build 'Rundeck_deploy'
-            }
-        }
+        
+       }
     }
 }
